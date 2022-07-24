@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+body {
+  margin: 0;
+  background-image: url(assets/pacific-office-interiors-PeK_reMn5E8-unsplash.jpg);
+  background-size: cover;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  margin: 1rem 2rem;
+}
+
+.nav-img-container {
+  flex-basis: 20%;
+}
+
+.nav-img {
+  width: 50%;
+}
+
+.nav-lists {
+  list-style: none;
+  flex-basis: 80%;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+  padding-bottom: 1rem;
+  padding-left: 0;
+  border-bottom: 2px solid #ffffff;
+}
+
+.nav-list {
+  flex-basis: 15%;
+  font-weight: 600;
+}
+
+.nav-list:hover {
+  cursor: pointer;
+}
+
+.nav-list:last-child::before {
+  content: url(/assets/call.svg);
+}
+
+.nav-list:last-child {
+  flex-basis: 25%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-list:last-child > p {
+  margin: 0 1rem;
+}
+
+/* => MAIN CONTENT */
+
+.main-header {
+  /* margin: 10rem 0 0 4rem;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  word-spacing: 10px; */
+  position: absolute;
+  font-size: 4rem;
+  left: 10%;
+  top: 20%;
+}
+
+.main-btn {
+  position: absolute;
+  left: 10%;
+  top: 60%;
+  background-color: transparent;
+  color: white;
+  padding: 1rem 3rem;
+  border: 2px solid white;
+  border-radius: 50px;
+  font-size: 1.125rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.main-container-card-1 {
+  background-color: #ffffff1b;
+  position: absolute;
+  right: 10vw;
+  top: 10vw;
+  padding: 1rem 2rem;
+}
+
+.card-1-img-container {
+  display: inline-block;
+  background-color: #ffffff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 50px;
+}
+
+.vertical-svg {
+  width: 100%;
+  position: absolute;
+  top: 82%;
+  right: -70%;
+}
+
+.main-container-card-2 {
+  background-color: #ffffff1b;
+  padding: 1rem 2rem;
+
+  position: absolute;
+  bottom: 20%;
+  right: 25%;
+}
+
+.card-2-img-container {
+  display: inline-block;
+  background-color: #ffffff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 50px;
+}
+
+.horizontal-svg {
+  width: 100%;
+  position: absolute;
+  right: -70%;
+  top: 40%;
+}
